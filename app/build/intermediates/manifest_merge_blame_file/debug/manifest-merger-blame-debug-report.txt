@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azhar.tpk"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:8:5-81
+13-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:8:22-78
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <application
+28-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:10:5-35:19
+29        android:allowBackup="true"
+29-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:11:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.5.0] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\34e436963887510d53d063d14d01ac7a\core-1.5.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:12:9-43
+33        android:label="@string/app_name"
+33-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:13:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:14:9-54
+35        android:supportsRtl="true"
+35-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:15:9-35
+36        android:theme="@style/AppTheme"
+36-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:16:9-40
+37        android:usesCleartextTraffic="true" >
+37-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:17:9-44
+38        <activity android:name="com.azhar.tpk.activities.DetailLocationActivity" />
+38-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:19:9-71
+38-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:19:19-68
+39        <activity android:name="com.azhar.tpk.activities.DrugStoreActivity" />
+39-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:20:9-66
+39-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:20:19-63
+40        <activity android:name="com.azhar.tpk.activities.DoctorActivity" />
+40-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:21:9-63
+40-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:21:19-60
+41        <activity android:name="com.azhar.tpk.activities.HospitalActivity" />
+41-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:22:9-65
+41-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:22:19-62
+42        <activity android:name="com.azhar.tpk.activities.ClinicActivity" />
+42-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:23:9-63
+42-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:23:19-60
+43        <activity android:name="com.azhar.tpk.activities.MainActivity" >
+43-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:24:9-30:20
+43-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:24:19-58
+44            <intent-filter>
+44-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:25:13-29:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:26:17-69
+45-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:26:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:28:17-77
+47-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:28:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <meta-data
+51-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:32:9-34:44
+52            android:name="com.google.android.geo.API_KEY"
+52-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:33:13-58
+53            android:value="YOUR API KEY" />
+53-->D:\S5\Mobile Programming\Tugas 4\Tempat-Pelayanan-Kesehatan-master\app\src\main\AndroidManifest.xml:34:13-41
+54        <!-- Needs to be explicitly declared on P+ -->
+55        <uses-library
+55-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+56            android:name="org.apache.http.legacy"
+56-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+57            android:required="false" />
+57-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\bfda1e875a5e2cc4c7fc4cd39b4ccb3b\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\3534f65abc9b07a9ab2ac718602f2c6e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\3534f65abc9b07a9ab2ac718602f2c6e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\3534f65abc9b07a9ab2ac718602f2c6e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\3534f65abc9b07a9ab2ac718602f2c6e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\cf138f25cc7ba97a5f0e55e261f794d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\cf138f25cc7ba97a5f0e55e261f794d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\TUFF\.gradle\caches\transforms-2\files-2.1\cf138f25cc7ba97a5f0e55e261f794d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+67    </application>
+68
+69</manifest>
